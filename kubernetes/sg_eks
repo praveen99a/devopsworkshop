@@ -1,0 +1,4 @@
+module "sgs" {
+    source = "../sg_eks"
+    vpc_id     =     aws_vpc.dpp-vpc.id
+  }
